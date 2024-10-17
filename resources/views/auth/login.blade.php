@@ -29,10 +29,16 @@
                         </div>
 
                         <div class="d-flex justify-content-between align-itens-center">
-                            <a href="#">Esqueceu sua Senha?</a>
+                            <a href="{{ route('password.request') }}">Esqueceu sua Senha?</a>
                             <button type="submit" class="btn btn-sm btn-primary">Entrar</button>
                         </div>
                     </form>
+
+                    @if (session('status'))
+                        <div class="alert alert-success mt-3 text-center">
+                            {{ session('status') }}
+                        </div>
+                    @endif
 
                 </div>
 
