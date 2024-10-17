@@ -1,7 +1,7 @@
-<div class="col-5">
+<div class="col-4">
     <div class="border p-5 shadow-sm">
 
-        <form action="{{ route('') }}" method="post">
+        <form action="{{ route('user.profile.update-user-data') }}" method="post">
             @csrf
 
             <h3>Alterar Dados</h3>
@@ -24,7 +24,7 @@
             </div>
 
             <div class="text-center">
-                <button type="submit" class="btn btn-primary">Update user data</button>
+                <button type="submit" class="btn btn-primary">Mudar Dados</button>
             </div>
 
         </form>

@@ -13,6 +13,7 @@
             <div class="row">
 
                 <x-profile-user-change-password />
+                <x-profile-user-change-data />
 
             </div>
         </div>
