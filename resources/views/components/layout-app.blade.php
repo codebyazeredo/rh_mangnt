@@ -21,12 +21,10 @@
 
         <x-side-bar />
 
-        <div class="m-3 p-3">
             {{ $slot }}
-        </div>
+     
     </div>
-
-    
+   
     <script src="{{ asset('assets/datatables/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/bootstrap/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/datatables/datatables.min.js') }}"></script>

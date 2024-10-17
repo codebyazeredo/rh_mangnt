@@ -1,7 +1,10 @@
 <x-layout-app page-title="Home">
     
-    @can('admin')
-        <h3>Admin</h3>
-    @endcan
+    <div class="w-100 p-4">
+        <h3>Início</h3>
+
+        <hr>
+        
+    </div>
 
 </x-layout-app>
