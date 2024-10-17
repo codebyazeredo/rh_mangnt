@@ -1,7 +1,7 @@
 <x-layout-app page-title="Home">
-    <h1 class="text-center">APP INSIDE</h1>
+    
+    @can('admin')
+        <h3>Admin</h3>
+    @endcan
 
-    @php
-        dump(auth()->user());
-    @endphp
 </x-layout-app>
